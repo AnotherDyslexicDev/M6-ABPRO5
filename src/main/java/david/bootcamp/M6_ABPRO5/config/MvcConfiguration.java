@@ -13,6 +13,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @ComponentScan(basePackages="david.bootcamp.M6_ABPRO5")
 @EnableWebMvc
 public class MvcConfiguration extends WebMvcConfigurerAdapter{
+	
 
 	@Bean
 	public ViewResolver getViewResolver(){
