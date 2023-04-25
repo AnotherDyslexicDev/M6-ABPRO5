@@ -10,7 +10,7 @@ public class CapacitacionDao {
 	private Logger miLogger = Logger.getLogger(getClass().getName());
 
 	public void crearCapacitacion(Capacitacion capacitacion) {
-		miLogger.info("***NO ME QUIERO IR SR STARK***");
+		miLogger.info("***[!] SE HA CREADO UNA CAPACITACIÓN [!]***");
 		System.out.println(capacitacion.toString());
 	}
 }
